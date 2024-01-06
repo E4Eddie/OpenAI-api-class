@@ -11,7 +11,8 @@
 
 
 ```php
-require "openai-class.php" // Make sure you include/require it properly.
+<?php
+require "openai-class.php"; // Make sure you include/require it properly.
 $apiKey = 'YOUR TOKEN';
 $gpt = new GPT3($apiKey);
 
